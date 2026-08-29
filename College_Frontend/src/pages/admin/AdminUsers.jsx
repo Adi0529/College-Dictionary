@@ -292,7 +292,7 @@ const AdminUsers = () => {
 
                                                         <img
                                                             src={
-                                                                `http://localhost:5000/${user.profileImage}`
+                                                                `https://college-dictionary.onrender.com/${user.profileImage}`
                                                             }
                                                             alt={
                                                                 user.name

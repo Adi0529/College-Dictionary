@@ -32,7 +32,7 @@ const getImageUrl = (image) => {
     const cleanPath =
         image.replace(/\\/g, "/");
 
-    return `http://localhost:5000/${cleanPath}`;
+    return `https://college-dictionary.onrender.com/${cleanPath}`;
 
 };
 

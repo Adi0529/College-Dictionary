@@ -26,7 +26,7 @@ function CollegeCard({
                 <img
                     src={
                         college.thumbnail
-                            ? `http://localhost:5000/${college.thumbnail}`
+                            ? `https://college-dictionary.onrender.com/${college.thumbnail}`
                             : "https://via.placeholder.com/600x350"
                     }
                     className="card-img-top"
